@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ti:app xmlns:ti="http://ti.appcelerator.org">
+<id>uk.co.studentvoiceonline.StudentVoice</id>
+<name>StudentVoice</name>
+<version>1.0</version>
+<publisher>antony</publisher>
+<url>http://studentvoiceonline.co.uk</url>
+<description>No description provided</description>
+<copyright>2010 by StudentVoiceOnline</copyright>
+<icon>default_app_logo.png</icon>
+    <persistent-wifi>false</persistent-wifi>
+    <prerendered-icon>false</prerendered-icon>
+    <statusbar-style>default</statusbar-style>
+    <statusbar-hidden>false</statusbar-hidden>
+    <analytics>true</analytics>
+<guid>b3998114-e00a-422a-bf23-507176032989</guid>
+</ti:app>
