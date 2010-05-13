@@ -14,6 +14,10 @@ public class StudentvoiceAppInfo implements ITiAppInfo
 	private static final String LCAT = "AppInfo";
 	
 	public StudentvoiceAppInfo(TiApplication app) {
+		TiProperties properties = app.getAppProperties();
+					
+		properties.setString("ti.deploytype", "development");
+		properties.setBool("ti.android.loadfromsdcard", true);
 	}
 	
 	public String getId() {
@@ -29,23 +33,23 @@ public class StudentvoiceAppInfo implements ITiAppInfo
 	}
 	
 	public String getPublisher() {
-		return "not specified";
+		return "antony";
 	}
 	
 	public String getUrl() {
-		return "not specified";
+		return "http://studentvoiceonline.co.uk";
 	}
 	
 	public String getCopyright() {
-		return "not specified";
+		return "2010 by StudentVoiceOnline";
 	}
 	
 	public String getDescription() {
-		return "not specified";
+		return "No description provided";
 	}
 	
 	public String getIcon() {
-		return "appicon.png";
+		return "default_app_logo.png";
 	}
 	
 	public boolean isAnalyticsEnabled() {
@@ -53,6 +57,6 @@ public class StudentvoiceAppInfo implements ITiAppInfo
 	}
 	
 	public String getGUID() {
-		return "None";
+		return "b3998114-e00a-422a-bf23-507176032989";
 	}
 }
